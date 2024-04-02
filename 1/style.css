@@ -1,0 +1,1064 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+  position: relative;
+   
+}
+
+header .bg{
+    position: absolute;
+    z-index: 3;
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.subheader{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+}
+.subheader .logo{
+    width: 15%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+nav{
+    width: 70%;
+    height: 100px;
+    margin-top: 80px;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+     justify-content: space-evenly;
+    align-items: center;
+}
+nav ul li{
+    color: rgb(37, 36, 36);
+    font-size: 25px;
+    font-weight: bolder;
+    list-style: none;
+}
+nav ul li:hover{
+    color: rgb(14, 138, 233);
+    transition: 0.8s;
+}
+.bar{
+    width: 5%;
+    display: none;
+}
+.subheader .bar i{
+   font-size: 30px; 
+}
+ .mainone{
+    height: 400px;
+    position: absolute;
+    z-index: 3;
+    top: 30%;
+    left: 62%;
+}
+.mainone h1{
+    font-size: 40px;
+    color: rgb(36, 35, 35);
+    font-weight: bolder;
+}
+.mainone p{
+    font-size: 20px;
+    color: black;
+    opacity: 0.8;
+}
+.mainone .btn1{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(14, 138, 233);
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+.mainone .btn1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+}
+.mainone .btn2{
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 18px;
+    color: white;
+    margin-left: 2%;
+}
+.mainone .btn2:hover{
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+}
+header .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+header .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .swiper .swiper-wrapper .slide1{
+    background-image: url('./images/hero_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header .swiper .swiper-wrapper .slide2{
+    background-image: url('./images/hero_3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* old css data */
+
+.about{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(15, 13, 13);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.abtinfo{
+    height: 400px;
+    width: 40%;
+    /* border: 1px solid white; */
+}
+.abtinfo h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+}
+.abtinfo p{
+    font-size: 20px;
+    color: white;
+    opacity: 0.7;
+}
+.abtinfo button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(14, 138, 233);
+    border: none;
+}
+.abtpic{
+    height: 500px;
+    width: 40%;
+    /* border: 1px solid white; */
+}
+.abtpic img{
+    height: 100%;
+    width: 100%;
+}
+.main {
+    height: 170px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.a {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+color: white;
+}
+.a h2,span{
+    margin-top: 5%;
+    font-size: 40px;
+}
+.b {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+color: white;
+}
+.b h2,span{
+    margin-top: 5%;
+    font-size: 40px;
+}
+.c {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+color: white;
+}
+.c h2,span{
+    margin-top: 5%;
+    font-size: 40px;
+}
+.d {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+color: white;
+}
+.d h2,span{
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+.a i,
+.b i,
+.c i,
+.d i {
+    width: 100%;
+  font-size: 50px;
+    margin-left: 25%;
+}
+ 
+
+
+.a i {
+    color: blueviolet;
+}
+
+.b i {
+    color: blue;
+}
+
+.c i {
+    color: red;
+}
+
+.d i {
+    color: blue;
+}
+.consultant{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(15, 13, 13);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.consh{
+    height: 50px;
+    width: 100%;
+}
+.consh h1{
+    font-size: 40px;
+    color: white;
+    margin-left: 10%;
+}
+.conspic{
+    height: 400px;
+    width: 50%;
+}
+.conspic img{
+    height: 100%;
+    width: 100%;
+}
+.consi{
+    height: 350px;
+     width: 35%;
+}
+.consi h1{
+    font-size: 30px;
+    color: white;
+}
+.consi p{
+    font-size: 19px;
+    color: white;
+    opacity: 0.7;
+}
+.consi button{
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: rgb(14, 138, 233);
+    border: none;
+    font-size: 18px;
+}
+.order{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(15, 13, 13);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.orderi{
+    height: 350px;
+     width: 35%;
+}
+.orderi h1{
+    font-size: 30px;
+    color: white;
+}
+.orderi p{
+    font-size: 19px;
+    color: white;
+    opacity: 0.7;
+}
+.orderi button{
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: rgb(14, 138, 233);
+    border: none;
+    font-size: 18px;
+}
+.orderpic{
+    height: 400px;
+    width: 50%;
+}
+.orderpic img{
+    height: 100%;
+    width: 100%;
+}
+
+.contact{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(15, 13, 13);
+   
+}
+.conh{
+    font-size: 30px;
+    color: white;
+    margin-left: 7%;
+}
+.conm{
+    height: 400px;
+    width: 70%;
+    
+    margin: auto;
+}
+.conm input{
+    width: 49%;
+    height: 50px;
+    margin-top: 1%;
+    background-color: rgb(32, 32, 32);
+    border: none;
+    font-size: 18px;
+}
+.conm textarea{
+    margin-top: 1%;
+    height: 200px;
+    width: 98%;
+    background-color: rgb(32, 32, 32);
+    border: none;
+    font-size: 18px;
+}
+.conm button{
+    margin-top: 1%;
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: rgb(14, 138, 233);
+    font-size: 18px;
+    border: none;
+}
+
+
+footer{
+    height: 600px;
+    background-color: rgb(47, 44, 44);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+    
+    margin-left: 4%;
+    margin-top: 3%;
+    
+}
+.q{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+   
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.r{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+    
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.k{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+    
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.p h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.p p{
+    font-size: 20px;
+    color: whitesmoke;
+    opacity: 0.7;
+}
+.q h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.q p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.q li{
+    font-size: 20px;
+    color: white;
+    opacity: 0.7;
+    font-weight: bold;
+}
+.r h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.r li{
+    font-size: 20px;
+    color: whitesmoke;
+    opacity: 0.7;
+    font-weight: bold;
+    list-style: none;
+}
+.r  i{
+    list-style: none;
+
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    list-style: none;
+}
+.k h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.k input{
+    width: 90%;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.k button{
+    border-radius: 10px;
+    padding: 15px 30px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* media-query */
+
+
+
+
+@media(max-width:980px)
+{
+
+    header .subheader .logo{
+        width: 35%;
+        position: absolute;
+        top: 0;
+        left: 5%;
+    }
+    
+    header .subheader{
+        height: 250px;
+        flex-direction: column;
+    }
+
+    .bar{
+        display: block;
+    }
+
+    header .subheader nav{
+        display: none;
+        height: 200px;
+        z-index: 6;
+        background-color: rgb(15, 13, 13);
+    }
+
+    header .subheader nav ul li{
+        color: white;
+    }
+
+    header .subheader nav ul{
+        flex-direction: column;
+    }
+
+    header .subheader .bar .fa-bars{
+        position: absolute;
+        top: 0;
+        right: 10%;
+    }
+
+    .mainone{
+        height: 400px;
+        position: absolute;
+        z-index: 2;
+        top: 30%;
+        left: 62%;
+    }
+
+    .abtinfo p{
+        font-size: 14px;
+        color: white;
+        opacity: 0.7;
+    }
+    .consi p{
+        font-size: 12px;
+        line-height: 26px;
+        color: white;
+        opacity: 0.7;
+    }
+    .orderi p{
+        font-size: 12px;
+        line-height: 26px;
+        color: white;
+        opacity: 0.7;
+    }
+    footer{
+        height: 400px;
+       
+        width: 980px ;
+        
+    }
+    .p{
+          height: auto;
+         margin-bottom: 8%;
+    }
+    .p p{
+        font-size: 13px;
+    }
+    .q{
+        height: auto;
+        margin-bottom: 4%;
+    }
+    .q li{
+        font-size: 13px;
+    }
+    .r{
+        height: auto;
+    }
+    .r h1{
+        font-size: 30px;
+       
+    }
+    .r i{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .k{
+        height: auto;
+        margin-bottom: 3%;
+    }
+    .k button{
+        border-radius: 10px;
+        padding: 15px 25px;
+       
+        color: white;
+        font-size: 15px;
+    }
+    
+}
+
+
+
+
+@media(max-width:720px)
+{
+    .abtinfo h1{
+        font-size: 35px;
+    }
+    .abtinfo p{
+        font-size: 10px;
+      line-height: 25px;
+    }
+    .a i,
+.b i,
+.c i,
+.d i {
+    width: 100%;
+  font-size: 40px;
+    margin-left: 25%;
+}
+    .a h2,span{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .b h2,span{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .c h2,span{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .d h2,span{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .mainone h1{
+        font-size: 35px;
+    }
+    .mainone p{
+        font-size: 17px;
+    }
+    .mainone .btn1{
+        height: 50px;
+        width: 100px;
+        font-size: 14px;
+    }
+    .mainone .btn2{
+        height: 50px;
+        width: 100px;
+        font-size: 14px;
+    }
+    .consi p{
+        font-size: 9px;
+        line-height: 26px;
+        color: white;
+        opacity: 0.7;
+    }
+    .consi button{
+        height: 45px;
+        width: 110px;
+        font-size: 15px;
+    }
+    .orderi p{
+        font-size: 9px;
+        line-height: 30px;
+        color: white;
+        opacity: 0.7;
+    }
+    .orderi button{
+        height: 45px;
+        width: 110px;
+        font-size: 15px;
+    }
+    .conm input{
+        font-size: 14px;
+    }
+    .conm textarea{
+        font-size: 16px;
+    }
+    footer{
+        height: 400px;
+       
+        width: 720px ;
+        
+    }
+    .p{
+          height: auto;
+         margin-bottom: 9%;
+    }
+    .p p{
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .q{
+        height: auto;
+        margin-bottom: 4%;
+    }
+    .q li{
+        font-size: 12px;
+    }
+    .r{
+        height: auto;
+        margin-top: 4%;
+    }
+    .r h1{
+        font-size: 30px;
+       
+    }
+    .r i{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .k{
+        height: auto;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    
+    .k input{
+        font-size: 13px;
+    }
+    .k button{
+        border-radius: 10px;
+        padding: 15px 25px;
+       
+        color: white;
+        font-size: 12px;
+    }
+    
+}
+
+
+@media(max-width:576px)
+{
+    .abtinfo h1{
+        font-size: 27px;
+    }
+    .abtinfo p{
+        font-size: 8px;
+      line-height: 25px;
+    }
+    .a i,
+    .b i,
+    .c i,
+    .d i {
+        width: 100%;
+      font-size: 30px;
+        margin-left: 25%;
+    }
+        .a h2,span{
+            margin-top: 5%;
+            font-size: 25px;
+        }
+        .b h2,span{
+            margin-top: 5%;
+            font-size: 25px;
+        }
+        .c h2,span{
+            margin-top: 5%;
+            font-size: 25px;
+        }
+        .d h2,span{
+            margin-top: 5%;
+            font-size: 25px;
+        }
+        .mainone h1{
+            font-size: 27px;
+        }
+        .mainone p{
+            font-size: 13px;
+        }
+        .mainone .btn1{
+            height: 50px;
+            width: 100px;
+            font-size: 14px;
+        }
+        .mainone .btn2{
+            height: 50px;
+            width: 100px;
+            font-size: 14px;
+        }
+    .consh h1{
+        font-size: 32px;
+    }
+    .consi p{
+        font-size: 7px;
+        line-height: 26px;
+        color: white;
+        opacity: 0.7;
+    }
+    .consi button{
+        height: 45px;
+        width: 100px;
+        font-size: 15px;
+    }
+    .orderi p{
+        font-size: 7px;
+        line-height: 30px;
+        color: white;
+        opacity: 0.7;
+    }
+    .orderi button{
+        height: 45px;
+        width: 100px;
+        font-size: 15px;
+    }
+    .conh{
+        font-size: 22px;
+        color: white;
+        margin-left: 7%;
+    }
+    .conm input{
+        font-size: 12px;
+    }
+    .conm textarea{
+        font-size: 14px;
+    }
+    .conm button{
+        width: 150px;
+        font-size: 16px;
+    }
+
+    footer{
+        height: 400px;
+       
+        width: 576px ;
+        
+    }
+    .p{
+          height: auto;
+         margin-bottom: 8%;
+    }
+    .p h1{
+        font-size: 25px;
+    }
+    .p p{
+        font-size: 7px;
+        line-height: 20px;
+    }
+    .q{
+        height: auto;
+        margin-bottom: 7%;
+    }
+    .q h1{
+        font-size: 25px;
+    }
+    .q li{
+        font-size: 10px;
+    }
+    .r{
+        height: auto;
+    }
+    .r h1{
+        font-size: 25px;
+       
+    }
+    .r i{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .k{
+        height: auto;
+        margin-bottom: 5%;
+        margin-right: 3%;
+    }
+    .k h1{
+        font-size: 25px;
+    }
+    .k input{
+        font-size: 10px;
+        width: 100%;
+    }
+    .k button{
+        border-radius: 10px;
+        padding: 15px 10px;
+       
+        color: white;
+        font-size: 12px;
+    }
+    
+}
+
+
+
+
+@media(max-width:480px)
+{
+    .abtinfo h1{
+        font-size: 24px;
+    }
+    .abtinfo p{
+        font-size: 7px;
+      line-height: 25px;
+    }
+    .abtinfo button{
+        width: 120px;
+        font-size: 14px;
+    }
+    .a i,
+    .b i,
+    .c i,
+    .d i {
+        width: 100%;
+      font-size: 30px;
+        margin-left: 25%;
+    }
+        .a h2,span{
+            margin-top: 5%;
+            font-size: 18px;
+        }
+        .b h2,span{
+            margin-top: 5%;
+            font-size: 18px;
+        }
+        .c h2,span{
+            margin-top: 5%;
+            font-size: 18px;
+        }
+        .d h2,span{
+            margin-top: 5%;
+            font-size: 18px;
+        }
+        .mainone h1{
+            font-size: 23px;
+        }
+        .mainone p{
+            font-size: 10px;
+            line-height: 15px;
+        }
+        .mainone .btn1{
+            height: 40px;
+            width: 80px;
+            font-size: 11px;
+        }
+        .mainone .btn2{
+            height: 40px;
+            width: 80px;
+            font-size: 11px;
+        }
+    .consh h1{
+        font-size: 27px;
+    }
+    .consi h1{
+        font-size: 23px;
+    }
+    .consi p{
+        font-size: 6px;
+        line-height: 26px;
+        color: white;
+        opacity: 0.7;
+    }
+    .consi button{
+        height: 40px;
+        width: 95px;
+        font-size: 13px;
+    }
+    .orderi h1{
+        font-size: 23px;
+    }
+    .orderi p{
+        font-size: 6px;
+        line-height: 30px;
+        color: white;
+        opacity: 0.7;
+    }
+    .orderi button{
+        height: 40px;
+        width: 95px;
+        font-size: 13px;
+    }
+    .conh{
+        font-size: 20px;
+        color: white;
+        margin-left: 7%;
+    }
+    .conm input{
+        font-size: 10px;
+    }
+    .conm textarea{
+        font-size: 12px;
+    }
+    .conm button{
+        width: 130px;
+        font-size: 14px;
+    }
+
+    footer{
+        height: 400px;
+       
+        width: 480px ;
+        
+    }
+    .p{
+          height: auto;
+         margin-bottom: 7%;
+    }
+    .p h1{
+        font-size: 20px;
+    }
+    .p p{
+        font-size: 6px;
+    }
+    .q{
+        height: auto;
+        margin-bottom: 7%;
+    }
+    .q h1{
+        font-size: 20px;
+    }
+    .q li{
+        font-size: 10px;
+    }
+    .r{
+        height: auto;
+    }
+    .r h1{
+        font-size: 20px;
+       
+    }
+    .r i{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .k{
+        height: auto;
+        margin-bottom: 5%;
+        margin-right: 3%;
+    }
+    .k h1{
+        font-size: 20px;
+    }
+    .k input{
+        font-size: 10px;
+        width: 100%;
+    }
+    .k button{
+        border-radius: 10px;
+        padding: 15px 10px;
+      
+        color: white;
+        font-size: 12px;
+    }
+    
+}
