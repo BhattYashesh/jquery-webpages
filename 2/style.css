@@ -1,0 +1,1239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 700px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.subheader{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.subheader .logo{
+    line-height: 100px;
+    width: 15%;
+    margin-top: 2%;
+}
+.subheader nav{
+    height: 100px;
+    width: 75%;
+}
+.subheader nav ul {
+    line-height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.subheader nav ul li{
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.subheader nav ul li:hover{
+    color: red;
+}
+.subheader .bar{
+    height: 100px;
+    width: 8%;
+    display: none;
+}
+.subheader .bar i{
+    line-height: 100px;
+    font-size: 25px;
+    margin-left: 40%;
+}
+
+header .mainone{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+   z-index: 2;
+}
+.mainone b{
+    font-size: 35px;
+    color: red;
+  margin-left: -60%;
+}
+.mainone h1{
+    font-size: 50px;
+    margin-left: -60%;
+}
+.mainone p{
+    font-size: 22px;
+    opacity: 0.8;
+    margin-left: -60%;
+
+} 
+.mainone button{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    margin-left: -60%;
+}
+.mainone button:hover{
+    background-color: red;
+    color: black;
+    transition: 0.8s;
+}
+header .maintwo{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+   z-index: 2;
+}
+.maintwo b{
+    font-size: 35px;
+    color: red;
+   margin-left: 50%;
+}
+.maintwo h1{
+    font-size: 50px;
+    margin-left: 50%;
+}
+.maintwo p{
+    font-size: 22px;
+    opacity: 0.8;
+    margin-left: 50%;
+
+} 
+.maintwo button{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    margin-left: 50%;
+}
+.maintwo button:hover{
+    background-color: red;
+    color: black;
+    transition: 0.8s;
+}
+
+header .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+header .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .swiper .swiper-wrapper .slide1{
+    background-image: url('./images/h1_hero1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header .swiper .swiper-wrapper .slide2{
+    background-image: url('./images/h1_hero2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* old css data */
+
+.item{
+    height: 500px;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.items .item1{
+    height: 400px;
+    width: 30%;
+}
+.item1 img{
+    height: 100%;
+    width: 100%;
+   
+}
+.item1 h1{
+    position: absolute;
+    top: 75%;
+    left: 12%;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    z-index: 3;
+}
+.items .item2{
+    height: 400px;
+    width: 30%;
+}
+.item2 img{
+    height: 100%;
+    width: 100%;
+}
+.item2 h1{
+    position: absolute;
+    top: 75%;
+    left: 43%;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    z-index: 3;
+}
+.items .item3{
+    height: 400px;
+    width: 30%;
+}
+.item3 img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+.item3 h1{
+    position: absolute;
+    top: 75%;
+    left: 78%;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    z-index: 3;
+}
+
+.main {
+    height: 170px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.a {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+color: black;
+}
+.a h2,span{
+    margin-top: 5%;
+    font-size: 40px;
+}
+.b {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+color: black;
+}
+.b h2,span{
+    margin-top: 5%;
+    font-size: 40px;
+}
+.c {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+color: black;
+}
+.c h2,span{
+    margin-top: 5%;
+    font-size: 40px;
+}
+.d {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+color: black;
+}
+.d h2,span{
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+.a i,
+.b i,
+.c i,
+.d i {
+    width: 100%;
+  font-size: 50px;
+    margin-left: 25%;
+}
+ 
+
+
+.a i {
+    color: blueviolet;
+}
+
+.b i {
+    color: blue;
+}
+
+.c i {
+    color: red;
+}
+
+.d i {
+    color: blue;
+}
+
+
+.trend{
+    height: 550px;
+    width: 100%;
+    margin-top: 4%;
+}
+.trend .trendh{
+    height: 50px;
+    width: 100%;
+}
+.trendh h1{
+    line-height: 100px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+.trend .trendm{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2%;
+}
+.trendm .img1{
+    height: 400px;
+    width: 22%;
+}
+.img1 img{
+    height: 100%;
+    width: 100%;
+}
+.trendm .img2{
+    height: 400px;
+    width: 22%;
+}
+.img2 img{
+    height: 100%;
+    width: 100%;
+}
+.trendm .img3{
+    height: 400px;
+    width: 22%;
+}
+.img3 img{
+    height: 100%;
+    width: 100%;
+}
+.trendm .img4{
+    height: 400px;
+    width: 22%;
+}
+.img4 img{
+    height: 100%;
+    width: 100%;
+}
+
+.testimonial{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(249, 227, 231);
+    position: relative;
+}
+.testimonial h1{
+    color: black;
+    text-align: center;
+}
+.testimonial p{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+.testimonial b{
+    color: black;
+   margin-left: 46%;
+   font-size: 20px;
+   margin-top: 4%;
+}
+.testimonial h3{
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+}
+.testimonial i{
+    font-size: 35px;
+   position: absolute;
+   top: 74%;
+   left: 43%;
+}
+.contact{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(15, 13, 13);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.conh{
+    height: 100px;
+    width: 20%;
+}
+.conh h1{
+    color: white;
+    font-size: 30px;
+}
+.conh p{
+    color: white;
+    font-size: 15px;
+    opacity: 0.8;
+}
+.conm{
+    height: 100px;
+    width: 60%;
+   /* border: 1px solid white; */
+}
+.conm input{
+    width: 60%;
+    height: 60px;
+    font-size: 17px;
+    border: none;
+    margin-left: 12%;
+}
+.conm button{
+    height: 60px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    margin-left: 1%;
+}
+.conicon{
+    height: 100px;
+    width: 15%;
+}
+.conicon i{
+    font-size: 30px;
+    color: white;
+    margin-left: 6%;
+    margin-top: 7%;
+}
+
+
+footer{
+    height: 430px;
+    background-color: rgb(15, 13, 13);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+    
+    margin-left: 4%;
+    margin-top: 3%;
+    
+}
+.q{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+   
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.r{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+    
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.k{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+    
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.q h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.q p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.q li{
+    font-size: 20px;
+    color: white;
+    opacity: 0.7;
+    font-weight: bold;
+}
+.r h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.r li{
+    font-size: 20px;
+    color: whitesmoke;
+    opacity: 0.7;
+    font-weight: bold;
+    list-style: none;
+}
+.r  i{
+    list-style: none;
+
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    list-style: none;
+}
+.k h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.k input{
+    width: 90%;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.k button{
+    border-radius: 10px;
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+
+@media(max-width:980px)
+{
+
+    header .subheader .logo{
+        width: 90%;  
+        line-height: 0px;
+    }
+    
+    header .subheader{
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .subheader .bar{
+        display: block;
+    }
+    
+    header .subheader nav{
+        margin-top: 5%;
+        /* display: none; */
+        height: 300px;
+        z-index: 6;
+        background-color: rgb(15, 13, 13);
+    }
+
+    header .subheader nav ul li{
+        color: white;
+    }
+
+    header .subheader nav ul{
+        flex-direction: column;
+        height: 300px;
+        line-height: 0px;
+    }
+
+    header .subheader .bar .fa-bars{
+        position: absolute;
+        top: 0;
+        right: 10%;
+    }
+    .mainone h1{
+        font-size: 50px;
+        margin-left: -55%;
+    }
+    .item1 h1{
+        position: absolute;
+        top: 70%;
+        left: 8%;
+    }
+    .item2 h1{
+        position: absolute;
+        top: 70%;
+        left: 40%;
+    }
+    .item3 h1{
+        position: absolute;
+        top: 70%;
+        left: 78%;
+    }
+    .testimonial b{
+       margin-left: 44%;
+    }
+    .testimonial i{
+       left: 40%;
+    }
+    .conh h1{
+        font-size: 21px;
+    }
+    .conh p{
+        color: white;
+        font-size: 10px;
+        opacity: 0.8;
+    }
+    .k button{
+        border-radius: 10px;
+        padding: 15px 20px;
+        background-color: red;
+        color: white;
+        font-size: 11px;
+    }
+}
+
+
+@media(max-width:720px)
+{
+    header .subheader .logo{
+        width: 90%;  
+        line-height: 0px;
+    }
+    
+    header .subheader{
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .subheader .bar{
+        display: block;
+    }
+    
+    header .subheader nav{
+        margin-top: 5%;
+        /* display: none; */
+        height: 300px;
+        z-index: 6;
+        background-color: rgb(15, 13, 13);
+    }
+
+    header .subheader nav ul li{
+        color: white;
+    }
+
+    header .subheader nav ul{
+        flex-direction: column;
+        height: 300px;
+        line-height: 0px;
+    }
+
+    header .subheader .bar .fa-bars{
+        position: absolute;
+        top: 0;
+        right: 10%;
+    }
+    .abtinfo h1{
+        font-size: 35px;
+    }
+    .abtinfo p{
+        font-size: 10px;
+      line-height: 25px;
+    }
+    .main{
+        height: auto;
+    }
+    .a i,
+.b i,
+.c i,
+.d i {
+    width: 100%;
+  font-size: 40px;
+    margin-left: 25%;
+}
+    .a h2,span{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .b h2,span{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .c h2,span{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .d h2,span{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .mainone b{
+      margin-left: -45%;
+    }
+    .mainone h1{
+        font-size: 45px;
+        margin-left: -41%;
+    }
+    .mainone p{
+        margin-left: -45%;
+    }
+    .mainone button{
+        height: 50px;
+        width: 200px;
+        background-color: black;
+        color: white;
+        font-size: 18px;
+        margin-left: -48%;
+    }
+    .maintwo h1{
+        font-size: 40px;
+    }
+  
+    .item1 h1{
+        position: absolute;
+        top: 70%;
+        left: 8%;
+    }
+    .item2 h1{
+        position: absolute;
+        top: 70%;
+        left: 40%;
+    }
+    .item3 h1{
+        position: absolute;
+        top: 70%;
+        left: 78%;
+    }
+    .testimonial b{
+       margin-left: 44%;
+    }
+    .testimonial i{
+       left: 39%;
+    }
+    .testimonial h3{
+        margin-left: 5%;
+    }
+    .contact{
+        height: auto;
+        flex-direction: column;
+    }
+    .conh h1{
+        font-size: 25px;
+        width: 500px;
+        margin-left: -10%;
+    }
+    .conh p{
+        width: 500px;
+        font-size: 20px;
+        margin-left: -65%;
+    }
+    .conm{
+        width: 700px;
+    }
+    .conicon{
+        width: 400px;
+        margin-left: 35%;
+    }
+    .k button{
+        border-radius: 10px;
+        padding: 15px 20px;
+        background-color: red;
+        color: white;
+        font-size: 11px;
+    }
+    footer{
+        height: 400px;
+       
+        width: 720px ;
+        
+    }
+    .p{
+          height: auto;
+        margin-top: -15%;
+        
+    }
+    .p img{
+        height: 90%;
+        width: 90%;
+       margin-top: -20%;
+    }
+    .q{
+        height: auto;
+        margin-bottom: 0%;
+    }
+    .q li{
+        font-size: 12px;
+    }
+    .r{
+        height: auto;
+        margin-top: 4%;
+    }
+    .r h1{
+        font-size: 30px;
+       
+    }
+    .r i{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .k{
+        height: auto;
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    
+    .k input{
+        font-size: 13px;
+    }
+    
+}
+
+@media(max-width:576px)
+{
+    header .subheader .logo{
+        width: 90%;  
+        line-height: 0px;
+    }
+    
+    header .subheader{
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .subheader .bar{
+        display: block;
+    }
+    
+    header .subheader nav{
+        margin-top: 5%;
+        /* display: none; */
+        height: 300px;
+        z-index: 6;
+        background-color: rgb(15, 13, 13);
+    }
+
+    header .subheader nav ul li{
+        color: white;
+    }
+
+    header .subheader nav ul{
+        flex-direction: column;
+        height: 300px;
+        line-height: 0px;
+    }
+
+    header .subheader .bar .fa-bars{
+        position: absolute;
+        top: 0;
+        right: 10%;
+    }
+    .abtinfo h1{
+        font-size: 35px;
+    }
+    .abtinfo p{
+        font-size: 10px;
+      line-height: 25px;
+    }
+    .main{
+        height: auto;
+    }
+    .a i,
+    .b i,
+    .c i,
+    .d i {
+        width: 100%;
+      font-size: 30px;
+        margin-left: 25%;
+    }
+        .a h2,span{
+            margin-top: 5%;
+            font-size: 25px;
+        }
+        .b h2,span{
+            margin-top: 5%;
+            font-size: 25px;
+        }
+        .c h2,span{
+            margin-top: 5%;
+            font-size: 25px;
+        }
+        .d h2,span{
+            margin-top: 5%;
+            font-size: 25px;
+        }
+        .mainone b{
+            margin-left: -40%;
+          }
+          .mainone h1{
+              font-size: 35px;
+              margin-left: -41%;
+          }
+          .mainone p{
+              margin-left: -40%;
+              font-size: 20px;
+          }
+          .mainone button{
+              height: 50px;
+              width: 180px;
+              background-color: black;
+              color: white;
+              font-size: 18px;
+              margin-left: -40%;
+          }
+          .maintwo h1{
+              font-size: 30px;
+          }
+        .maintwo p{
+            font-size: 17px;
+        }
+        .maintwo button{
+            height: 50px;
+            width: 150px;
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            
+        }
+        .item1 h1{
+            display: none;
+        }
+        .item2 h1{
+            display: none;
+        }
+        .item3 h1{
+            display: none;
+        }
+        .testimonial p{
+            font-size: 18px;
+        }
+        .testimonial b{
+            margin-left: 44%;
+         }
+         .testimonial i{
+            left: 36%;
+            top: 67%;
+         }
+         .testimonial h3{
+             margin-left: 9%;
+         }
+         .contact{
+            height: auto;
+            flex-direction: column;
+        }
+        .conh h1{
+            font-size: 25px;
+            width: 500px;
+            margin-left: -40%;
+        }
+        .conh p{
+            width: 500px;
+            font-size: 20px;
+            margin-left: -95%;
+        }
+        .conm{
+            width: 700px;
+        }
+        .conm input{
+            width: 50%;
+        }
+        .conicon{
+            width: 400px;
+            margin-left: 35%;
+        }
+        footer{
+            height: 400px;
+           
+            width: 576px ;
+            
+        }
+        .p{
+            height: auto;
+          margin-top: -15%;
+          
+      }
+      .p img{
+          height: 90%;
+          width: 90%;
+         margin-bottom: 10%;
+      }
+        .p p{
+            font-size: 7px;
+            line-height: 20px;
+        }
+        .q{
+            height: auto;
+            margin-bottom: 1%;
+        }
+        .q h1{
+            font-size: 25px;
+        }
+        .q li{
+            font-size: 10px;
+        }
+        .r{
+            height: auto;
+        }
+        .r h1{
+            font-size: 25px;
+           
+        }
+        .r i{
+            font-size: 10px;
+            font-weight: 300;
+        }
+        .k{
+            height: auto;
+            margin-bottom: 5%;
+            margin-right: 3%;
+        }
+        .k h1{
+            font-size: 25px;
+        }
+        .k input{
+            font-size: 10px;
+            width: 100%;
+        }
+        .k button{
+            border-radius: 10px;
+            padding: 15px 20px;
+            background-color: red;
+            color: white;
+            font-size: 11px;
+        }
+}
+
+
+@media(max-width:480px)
+{
+    header .subheader .logo{
+        width: 90%;  
+        line-height: 0px;
+    }
+    
+    header .subheader{
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .subheader .bar{
+        display: block;
+    }
+    
+    header .subheader nav{
+        margin-top: 5%;
+        /* display: none; */
+        height: 300px;
+        z-index: 6;
+        background-color: rgb(15, 13, 13);
+    }
+
+    header .subheader nav ul li{
+        color: white;
+    }
+
+    header .subheader nav ul{
+        flex-direction: column;
+        height: 300px;
+        line-height: 0px;
+    }
+
+    header .subheader .bar .fa-bars{
+        position: absolute;
+        top: 0;
+        right: 10%;
+    }
+    .a i,
+    .b i,
+    .c i,
+    .d i {
+        width: 100%;
+      font-size: 30px;
+        margin-left: 25%;
+    }
+        .a h2,span{
+            margin-top: 5%;
+            font-size: 18px;
+        }
+        .b h2,span{
+            margin-top: 5%;
+            font-size: 18px;
+        }
+        .c h2,span{
+            margin-top: 5%;
+            font-size: 18px;
+        }
+        .d h2,span{
+            margin-top: 5%;
+            font-size: 18px;
+        }
+        .mainone b{
+            margin-left: -40%;
+          }
+          .mainone h1{
+              font-size: 29px;
+              margin-left: -41%;
+          }
+          .mainone p{
+              margin-left: -40%;
+              font-size: 15px;
+          }
+          .mainone button{
+              height: 50px;
+              width: 150px;
+              background-color: black;
+              color: white;
+              font-size: 18px;
+              margin-left: -40%;
+          }
+          .maintwo h1{
+              font-size: 25px;
+          }
+        .maintwo p{
+            font-size: 14px;
+        }
+        .maintwo button{
+            height: 50px;
+            width: 120px;
+            background-color: black;
+            color: white;
+            font-size: 15px;
+            
+        }
+        .item1 h1{
+            display: none;
+        }
+        .item2 h1{
+            display: none;
+        }
+        .item3 h1{
+            display: none;
+        }
+        .testimonial p{
+            font-size: 16px;
+        }
+        .testimonial b{
+            margin-left: 44%;
+         }
+         .testimonial i{
+            left: 36%;
+            top: 65%;
+         }
+         .testimonial h3{
+             margin-left: 13%;
+         }
+         .contact{
+            height: auto;
+            flex-direction: column;
+        }
+        .conh h1{
+            font-size: 25px;
+            width: 500px;
+            margin-left: -60%;
+        }
+        .conh p{
+            width: 500px;
+            font-size: 16px;
+            margin-left: -100%;
+        }
+        .conm{
+            width: 480px;
+        }
+        .conm input{
+            width: 300px;
+        }
+        .conm button{
+            width: 100px;
+        }
+        .conicon{
+            width: 400px;
+            margin-left: 45%;
+        }
+        footer{
+            height: 400px;
+           
+            width: 480px ;
+            
+        }
+        .p{
+              height: auto;
+             margin-bottom: 7%;
+        }
+        .p h1{
+            font-size: 20px;
+        }
+        .p p{
+            font-size: 6px;
+        }
+        .q{
+            height: auto;
+            margin-bottom: 2%;
+        }
+        .q h1{
+            font-size: 20px;
+        }
+        .q li{
+            font-size: 10px;
+        }
+        .r{
+            height: auto;
+        }
+        .r h1{
+            font-size: 20px;
+           
+        }
+        .r i{
+            font-size: 10px;
+            font-weight: 300;
+        }
+        .k{
+            height: auto;
+            margin-bottom: 5%;
+            margin-right: 3%;
+        }
+        .k h1{
+            font-size: 20px;
+        }
+        .k input{
+            font-size: 10px;
+            width: 100%;
+        }
+        .k button{
+            border-radius: 10px;
+            padding: 15px 9px;
+            background-color: red;
+            color: white;
+            font-size: 9px;
+        }
+}
