@@ -1,0 +1,498 @@
+@media(max-width:980px)
+{
+    header  .logo{
+        width: 90%;  
+        line-height: 0px;
+    }
+    
+    header {
+        height: auto;
+        flex-direction: column;
+    }
+    
+     .bar{
+        display: block;
+    }
+    
+    header  nav{
+        margin-top: 5%;
+        /* display: none; */
+        height: 300px;
+        z-index: 6;
+        background-color: rgb(69, 1, 69);
+    }
+
+    header  nav ul li{
+        color: white;
+    }
+
+    header nav ul{
+        flex-direction: column;
+        height: 300px;
+        line-height: 0px;
+    }
+
+    header .bar .fa-bars{
+        position: absolute;
+        top: 0;
+        right: 10%;
+    }
+    .maininfo h1{
+        font-size: 50px;
+        margin-left: 30%;
+    }
+    .maininfo p{
+        font-size: 15px;
+        margin-left: 30%;
+    }
+    .maininfo button{
+        width: 160px;
+        height: 50px;
+        font-size: 17px;
+    }
+    .abtinfo p{
+        font-size: 25px;
+    }
+    .abtinfo h1{
+        font-size: 40px;
+    }
+    .abtinfo button{
+        width: 180px;
+        height: 50px;
+    }
+    .abtinfo2 p{
+        font-size: 25px;
+    }
+    .abtinfo2 h1{
+        font-size: 40px;
+    }
+    .abtinfo2 button{
+        width: 180px;
+        height: 50px;
+    }
+    .abtinfo3 p{
+        font-size: 25px;
+    }
+    .abtinfo3 h1{
+        font-size: 40px;
+    }
+    .abtinfo3 button{
+        width: 180px;
+        height: 50px;
+    }
+    .a h2,span{
+        margin-top: 5%;
+        font-size: 35px;
+    }
+    .b h2,span{
+        margin-top: 5%;
+        font-size: 35px;
+    }
+    .c h2,span{
+        margin-top: 5%;
+        font-size: 35px;
+    }
+    .d h2,span{
+        margin-top: 5%;
+        font-size: 35px;
+    }
+    .conm button{
+        height: 50px;
+        width: 200px;
+        font-size: 18px;
+        margin-left: 61%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:720px)
+{
+    header  .logo{
+        width: 90%;  
+        line-height: 0px;
+    }
+    
+    header {
+        height: auto;
+        flex-direction: column;
+    }
+    
+     .bar{
+        display: block;
+    }
+    
+    header nav{
+        margin-top: 5%;
+        /* display: none; */
+        height: 300px;
+        z-index: 6;
+        background-color: rgb(69, 1, 69);
+    }
+
+    header nav ul li{
+        color: white;
+    }
+
+    header  nav ul{
+        flex-direction: column;
+        height: 300px;
+        line-height: 0px;
+    }
+
+    header .bar .fa-bars{
+        position: absolute;
+        top: 0;
+        right: 10%;
+    }
+    .main{
+        height: auto;
+    }
+    .a i,
+.b i,
+.c i,
+.d i {
+    width: 100%;
+  font-size: 40px;
+    margin-left: 25%;
+}
+    .a h2,span{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .b h2,span{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .c h2,span{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .d h2,span{
+        margin-top: 5%;
+        font-size: 30px;
+    }
+    .contact{
+        margin-top: 0;
+    }
+    .conm button{
+        height: 50px;
+        width: 180px;
+        font-size: 18px;
+        margin-left: 55%;
+    }
+    .mainione{
+        height: auto;
+    }
+    .maininfo h1{
+        font-size: 35px;
+        margin-left: 30%;
+    }
+    .maininfo p{
+        font-size: 11px;
+        margin-left: 30%;
+    }
+    .maininfo button{
+        width: 120px;
+        height: 50px;
+        font-size: 17px;
+    }
+    .abtinfo p{
+        font-size: 25px;
+    }
+    .abtinfo h1{
+        font-size: 30px;
+    }
+    .abtinfo button{
+        width: 160px;
+        height: 50px;
+    }
+    .abtinfo2 p{
+        font-size: 25px;
+    }
+    .abtinfo2 h1{
+        font-size: 30px;
+    }
+    .abtinfo2 button{
+        width: 160px;
+        height: 50px;
+    }
+    .abtinfo3 p{
+        font-size: 25px;
+    }
+    .abtinfo3 h1{
+        font-size: 30px;
+    }
+    .abtinfo3 button{
+        width: 160px;
+        height: 50px;
+    }
+    .trend{
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:576px)
+{
+    header  .logo{
+        width: 90%;  
+        line-height: 0px;
+    }
+    
+    header {
+        height: auto;
+        flex-direction: column;
+    }
+    
+     .bar{
+        display: block;
+    }
+    
+    header nav{
+        margin-top: 5%;
+        /* display: none; */
+        height: 300px;
+        z-index: 6;
+        background-color: rgb(69, 1, 69);
+    }
+
+    header nav ul li{
+        color: white;
+    }
+
+    header  nav ul{
+        flex-direction: column;
+        height: 300px;
+        line-height: 0px;
+    }
+
+    header .bar .fa-bars{
+        position: absolute;
+        top: 0;
+        right: 10%;
+    }
+    .main{
+        height: auto;
+    }
+    .a i,
+    .b i,
+    .c i,
+    .d i {
+        width: 100%;
+      font-size: 30px;
+        margin-left: 25%;
+    }
+        .a h2,span{
+            margin-top: 5%;
+            font-size: 25px;
+        }
+        .b h2,span{
+            margin-top: 5%;
+            font-size: 25px;
+        }
+        .c h2,span{
+            margin-top: 5%;
+            font-size: 25px;
+        }
+        .d h2,span{
+            margin-top: 5%;
+            font-size: 25px;
+        }
+        .conm button{
+            height: 50px;
+            width: 150px;
+            font-size: 18px;
+            margin-left: 53%;
+        }
+        .mainione{
+            height: auto;
+        }
+        .maininfo{
+            height: auto;
+        }
+        .mainpic{
+            height: auto;
+        }
+        .maininfo h1{
+            font-size: 25px;
+            margin-left: 30%;
+        }
+        .maininfo p{
+            font-size: 7px;
+            margin-left: 30%;
+        }
+        .maininfo button{
+            width: 70px;
+            height: 40px;
+            font-size: 10px;
+        }
+        .abtinfo p{
+            font-size: 22px;
+        }
+        .abtinfo h1{
+            font-size: 20px;
+        }
+        .abtinfo button{
+            width: 100px;
+            height: 50px;
+            font-size: 11px;
+        }
+        .abtinfo2 p{
+            font-size: 25px;
+        }
+        .abtinfo2 h1{
+            font-size: 20px;
+        }
+        .abtinfo2 button{
+            width: 100px;
+            height: 50px;
+            font-size: 11px;
+        }
+        .abtinfo3 p{
+            font-size: 25px;
+        }
+        .abtinfo3 h1{
+            font-size: 20px;
+        }
+        .abtinfo3 button{
+            width: 100px;
+            height: 50px;
+            font-size: 11px;
+        }
+        .trend{
+            height: auto;
+        }
+        .trendh{
+            font-size: 20px;
+        }
+        .ft i{
+            font-size: 30px;
+             margin-left: 3%;
+             color: white;
+        }
+        footer p{
+            font-size: 20px;
+            text-align: center;
+            color: white;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:480px)
+{
+    header  .logo{
+        width: 90%;  
+        line-height: 0px;
+    }
+    
+    header {
+        height: auto;
+        flex-direction: column;
+    }
+    
+     .bar{
+        display: block;
+    }
+    
+    header nav{
+        margin-top: 5%;
+        /* display: none; */
+        height: 300px;
+        z-index: 6;
+        background-color: rgb(69, 1, 69);
+    }
+
+    header nav ul li{
+        color: white;
+    }
+
+    header  nav ul{
+        flex-direction: column;
+        height: 300px;
+        line-height: 0px;
+    }
+
+    header .bar .fa-bars{
+        position: absolute;
+        top: 0;
+        right: 10%;
+    }
+    .a i,
+    .b i,
+    .c i,
+    .d i {
+        width: 100%;
+      font-size: 30px;
+        margin-left: 25%;
+    }
+        .a h2,span{
+            margin-top: 5%;
+            font-size: 18px;
+        }
+        .b h2,span{
+            margin-top: 5%;
+            font-size: 18px;
+        }
+        .c h2,span{
+            margin-top: 5%;
+            font-size: 18px;
+        }
+        .d h2,span{
+            margin-top: 5%;
+            font-size: 18px;
+        }
+        .conm button{
+            height: 50px;
+            width: 120px;   
+            font-size: 15px;
+            margin-left: 53%;
+        }
+        footer p{
+            font-size: 18px;
+            text-align: center;
+            color: white;
+            margin-right: 4%;
+        }
+}

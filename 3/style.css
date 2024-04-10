@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 3;
+}
+header .logo{
+  width: 15%;
+}
+header nav{
+    height: 100px;
+    width: 70%;
+}
+header nav ul{
+    line-height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav ul li{
+    list-style: none;
+    font-size: 25px;
+}
+.bar{
+    width: 5%;
+    display: none;
+}
+
+.mainone{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.maininfo{
+    height: 330px;
+    width: 40%;
+    /* border: 1px solid red; */
+}
+.maininfo h1{
+    color: rgb(69, 1, 69);
+    font-size: 70px;
+    font-weight: bolder;
+    margin-left: 30%;
+}
+.maininfo p{
+    color: rgb(69, 1, 69);
+    font-size: 22px;
+    margin-left: 30%;
+}
+.maininfo button{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(189, 141, 189);
+    margin-left: 30%;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+.maininfo button:hover{
+    background-color: white;
+    color: black;
+    border: solid;
+    transition: 0.8s;
+}
+.mainpic{
+    height: 500px;
+    width: 55%;
+}
+.mainpic img{
+    height: 100%;
+    width: 100%;
+}
+
+.about1{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+}
+.abtp{
+    height: 400px;
+    width: 40%;
+}
+.back{
+    height: 410px;
+    width: 30%;
+  position: absolute;
+}
+.back img{
+    height: 100%;
+    width: 100%;
+}
+.abtpic{
+    height: 400px;
+    width: 40%;
+    position: relative;
+    top: 7%;
+    left: 5%;
+}
+.abtpic img{
+    height: 100%;
+    width: 200%;
+}
+
+.abtinfo{
+    height: 300px;
+    width: 40%;
+}
+.abtinfo p{
+    color: rgb(189, 141, 189);
+    font-size: 25px;
+    font-weight: bold;
+}
+.abtinfo h1{
+    font-size: 50px;
+    color: rgb(69, 1, 69);
+}
+.abtinfo button{
+    width: 180px;
+    height: 50px;
+    border: 1px solid  rgb(189, 141, 189);
+    background-color: transparent;
+    color:  rgb(189, 141, 189);
+}
+
+
+
+.about2{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+}
+.abtp2{
+    height: 400px;
+    width: 40%;
+}
+.back2{
+    height: 410px;
+    width: 30%;
+  position: absolute;
+}
+.back2 img{
+    height: 100%;
+    width: 100%;
+}
+.abtpic2{
+    height: 400px;
+    width: 40%;
+    position: relative;
+    top: 7%;
+    right: 9%;
+}
+.abtpic2 img{
+    height: 100%;
+    width: 200%;
+}
+.abtinfo2{
+    height: 300px;
+    width: 40%;
+}
+.abtinfo2 p{
+    color: rgb(189, 141, 189);
+    font-size: 25px;
+    font-weight: bold;
+}
+.abtinfo2 h1{
+    font-size: 50px;
+    color: rgb(69, 1, 69);
+}
+.abtinfo2 button{
+    width: 180px;
+    height: 50px;
+    border: 1px solid  rgb(189, 141, 189);
+    background-color: transparent;
+    color:  rgb(189, 141, 189);
+}
+
+
+.about3{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+}
+.abtp3{
+    height: 400px;
+    width: 40%;
+}
+.back3{
+    height: 410px;
+    width: 30%;
+  position: absolute;
+}
+.back3 img{
+    height: 100%;
+    width: 100%;
+}
+.abtpic3{
+    height: 400px;
+    width: 40%;
+    position: relative;
+    top: 7%;
+    left: 5%;
+}
+.abtpic3 img{
+    height: 100%;
+    width: 200%;
+}
+.abtinfo3{
+    height: 300px;
+    width: 40%;
+}
+.abtinfo3 p{
+    color: rgb(189, 141, 189);
+    font-size: 25px;
+    font-weight: bold;
+}
+.abtinfo3 h1{
+    font-size: 50px;
+    color: rgb(69, 1, 69);
+}
+.abtinfo3 button{
+    width: 180px;
+    height: 50px;
+    border: 1px solid  rgb(189, 141, 189);
+    background-color: transparent;
+    color:  rgb(189, 141, 189);
+}
+
+
+.main {
+    height: 170px;
+    width: 100%;
+    background-color: rgb(52, 47, 47);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4%;
+}
+.a {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+color: white;
+}
+.a h2,span{
+    margin-top: 5%;
+    font-size: 40px;
+}
+.b {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+color: white;
+}
+.b h2,span{
+    margin-top: 5%;
+    font-size: 40px;
+}
+.c {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+color: white;
+}
+.c h2,span{
+    margin-top: 5%;
+    font-size: 40px;
+}
+.d {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+color: white;
+}
+.d h2,span{
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+.a i,
+.b i,
+.c i,
+.d i {
+    width: 100%;
+  font-size: 50px;
+    margin-left: 25%;
+}
+ 
+
+
+.a i {
+    color: blueviolet;
+}
+
+.b i {
+    color: blue;
+}
+
+.c i {
+    color: red;
+}
+
+.d i {
+    color: blue;
+}
+
+
+.trend{
+    height: 500px;
+    width: 100%;
+}
+.trendh{
+    height: 100x;
+    width: 100%;
+    margin-top: 2%;
+    color: rgb(69, 1, 69);
+    font-size: 30px;
+}
+.swiper {
+    width: 40%;
+    height: 40%;
+    margin-top: 5%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .contact{
+    height: 500px;
+    width: 100%;
+    margin-top: 7%;
+}
+.conh{
+    height: 100px;
+    width: 100%;
+}
+.conh h1{
+    font-size: 40px;
+    color: rgb(69, 1, 69);
+    text-align: center;
+}
+.conm{
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+}
+.conm input{
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    border: none;
+    font-size: 18px;
+}
+.conm textarea{
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    border: none;
+    font-size: 18px;
+}
+.conm hr{
+    margin-left: 10%;
+    width: 80%;
+}
+.conm button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(69, 1, 69);
+    color: white;
+    font-size: 18px;
+    margin-left: 72%;
+}
+
+footer{
+    height: 100px;
+    margin-top: 3%;
+    background-color: rgb(69, 1, 69);
+  
+}
+.ft{
+    height: 50px;
+    margin-left: 44%;
+}
+.ft i{
+    font-size: 30px;
+     margin-left: 3%;
+     color: white;
+}
+footer p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
